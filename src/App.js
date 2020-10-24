@@ -5,9 +5,9 @@ import ComponentC from "./Components/ComponentC";
 function App() {
   return (
     <div className="App">
-      <UserProvider value="hewr">
-        <ComponentC />
-      </UserProvider>
+      {/* <UserProvider value="hewr"> */}
+      <ComponentC />
+      {/* </UserProvider> */}
     </div>
   );
 }
